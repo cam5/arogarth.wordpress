@@ -21,7 +21,7 @@ $ git clone https://github.com/arogarth/arogarth.wordpress.git roles/arogarth.wo
 # Sample environment with vagrant
 
 Put the following two files an a directory and clone this project. Then you can vagrant up a Virtual Machine.
-Wordpress will be accissible by Browser on localhost:8080 on your hostsystem.
+Wordpress will be accissible by Browser on http://localhost:8080 on your hostsystem.
 
 _Structure_
 * Vagrantfile
