@@ -15,6 +15,10 @@ Role will installed Packeges this packages:
 
 # Installation
 ```
+ansible-galaxy install arogarth.arogarth_wordpress
+```
+
+```
 $ git clone https://github.com/arogarth/arogarth.wordpress.git roles/arogarth.wordpress
 ```
  
