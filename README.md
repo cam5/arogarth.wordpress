@@ -14,10 +14,12 @@ Role will installed Packeges this packages:
 * MySQL
 
 # Installation
+
 ```
 ansible-galaxy install arogarth.arogarth_wordpress
 ```
 
+or from github
 ```
 $ git clone https://github.com/arogarth/arogarth.wordpress.git roles/arogarth.wordpress
 ```
