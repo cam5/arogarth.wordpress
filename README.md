@@ -16,7 +16,7 @@ Role will installed Packeges this packages:
 # Installation
 
 ```
-ansible-galaxy install arogarth.arogarth_wordpress
+ansible-galaxy install arogarth.wordpress
 ```
 
 or from github
