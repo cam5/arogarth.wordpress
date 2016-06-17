@@ -5,7 +5,7 @@
   register: wp
 
 - name: Download latest Wordpress
-  get_url: url=https://de.wordpress.org/latest-de_DE.zip dest=/tmp/wordpress.zip
+  get_url: url=https://{{ wp_language }}.wordpress.org/latest-{{ wp_language}}_{{ wp_locale }}.zip dest=/tmp/wordpress.zip
 
 - name: Unpack Wordpress to /tmp/wordpress
   unarchive: copy=no src=/tmp/wordpress.zip dest=/tmp/ creates=/var/www/{{wp_name}} owner=www-data group=www-data
