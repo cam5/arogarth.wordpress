@@ -6,5 +6,6 @@ wp_name: wordpress
 wp_db_host: localhost
 wp_db_user: wordpress
 wp_db_name: wordpress
+wp_enable_rewrite: true
 #wp_db_password: ... # Password will be generated
 

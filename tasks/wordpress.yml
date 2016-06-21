@@ -50,6 +50,13 @@
     dest: /etc/apache2/sites-available/{{wp_name}}.conf
   register: apache2_conf
 
+- name: Install Apache2 mod_rewrite
+  apache2_module:
+    state: present
+    name: rewrite
+  notify: reload apache2
+  when: "{{ wp_enable_rewrite }}"
+
 - name: Enable Wordpress Apache Config
   command: /usr/sbin/a2ensite {{wp_name}}
   notify: reload apache2
